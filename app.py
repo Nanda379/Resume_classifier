@@ -3,6 +3,7 @@ import streamlit as st
 import pickle
 import re
 import nltk
+from nltk.corpus import stopwords
 
 nltk.download('punkt')
 nltk.download('stopwords')
